@@ -37,8 +37,8 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            // Respawn del jugador
-            collision.gameObject.transform.position = spawnPoint.position; // Ejemplo de posición de respawn
+            
+            collision.gameObject.transform.position = spawnPoint.position; // Ejemplo de posiciÃ³n de respawn
         }
     }
 }
