@@ -38,7 +38,7 @@ public class EnemyMovement2 : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             
-            collision.gameObject.transform.position = spawnPoint.position; 
+            collision.gameObject.transform.position = spawnPoint.position;
         }
     }
 }
